@@ -1,0 +1,1 @@
+function e(e,t,n,r=!1){if(r)return 0;let i=t;for(let t of e){if(t.type!==`essay`)continue;let e=n[t.id];if(e==null||Number.isNaN(Number(e)))return null;i+=Math.min(100,Math.max(0,Number(e)))/100*(Number(t.points)||0)}return Math.round(i*100)/100}function t(e){return e>=85?`ممتاز`:e>=75?`جيد جداً`:e>=60?`جيد`:e>=40?`مقبول`:`ضعيف`}export{t as n,e as t};

@@ -1,0 +1,1 @@
+import{r as e}from"./useRouter-DiyoLFw0.js";import{x as t}from"./index-6p4rSCdx.js";var n=e(),r=()=>(0,n.jsx)(t,{});export{r as component};
